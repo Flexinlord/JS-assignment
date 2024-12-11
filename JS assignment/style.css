@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  justify-content: center;
+  display: flex;
+}
+
+.header-content{
+  background-color: #fff;
+  border: none;
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-right: 150px;
+  margin-left: 200px;
+  padding: 20px;
+  border-width: 20px;
+  box-sizing: border-box;
+  position:relative;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  background-color: white;
+  color: black;
+  padding: 30px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 950px;
+ 
+}
+.conversation {
+  width: 50%;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 120px;
+  padding: 5px;
+  font-weight: bold;
+  position: relative;
+  background-color: #f9f9f9;
+  border-left: 10px solid grey;
+}
+
+span {
+  font-weight: bold;
+}
+
+.quote-top {
+  position: relative;
+  top: 5px;
+  font-size: 50px;
+  color: grey;
+  font-weight: bold;
+  margin-left: 5px;
+  font-style: italic;
+}
+
+.teacher-student {
+    margin: 0%;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.note {
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid black;
+}
+.note.top-left {
+  top: -28px;
+  left: -10px;
+  font-style: italic;
+}
+.note.middle-right {
+  top: 27%; 
+  transform: translateY(-50%);
+  right: -52px;
+  width: 30px;
+  font-style: italic;
+}
+.note.bottom-left {
+  bottom: -28px;
+  left: -10px;
+  font-style: italic;
+}

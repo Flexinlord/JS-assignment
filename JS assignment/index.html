@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS assignment-Quoted Text</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 120px;
+        margin-left: 50px;
+        margin-bottom: 600px;
+      }
+
+      
+      .container {
+        position: fixed;
+        text-align: center;
+        background-color: whitesmoke;
+        color: black;
+        padding: 30px 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 950px;
+        border-left: 10px solid blue;
+      }
+      .quote {
+        font-size: 50px;
+        color: blue;
+        position: relative;
+        font-family: "Georgia", serif;
+        font-style: italic;
+      }
+      .quote-top {
+        top: 20px;
+        left: 5%;
+        transform: translateX(-50%);
+      }
+      .quote-bottom {
+        bottom: 20px;
+        left: 10%;
+        transform: translateX(-50%);
+      }
+      #message {
+        font-size: 20px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Otherside</a></li>
+          <li><a href="javaass.html">Tooltips</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container" id="container">
+      <div class="quote quote-top">“</div>
+      <p id="message"></p>
+      <div class="quote quote-bottom">”</div>
+    </div>
+
+    <script>
+      // Set the text content for the main message
+      const message = document.getElementById("message");
+      message.textContent =
+        "See you on the other side, where we will discuss the Events in JavaScript, May the fourth be with you.";
+    </script>
+  </body>
+</html>
